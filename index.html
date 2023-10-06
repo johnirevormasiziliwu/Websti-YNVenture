@@ -4,55 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
   </head>
   <body>
     <!-- start navbar  -->
-    <nav class="navbar navbar-expand-lg bg-white p-4">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item bg-black me-3 rounded-5 p-1">
-            <a class="nav-link text-white" href="#">About Us</a>
-          </li>
-          <li class="nav-item bg-black me-3 rounded-5 p-1">
-            <a class="nav-link text-white" href="#">Expertise</a>
-          </li>
-          <li class="nav-item bg-black me-3 rounded-5 p-1">
-            <a class="nav-link text-white" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item bg-black me-3 rounded-5 p-1">
-            <a class="nav-link text-white" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <a href="#home" class="logo"><img src="img/logoukrim.png" alt="logoukrim"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+     
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </header>
 
     <!-- end navbar -->
     <!-- Home start -->
     <section>
-      <div class="jumbotron">
+      <div class="home">
         <div class="title">
           <h1>
             “DESIGNINGANDDEVELOPINGBUSINESSFOR SUSTAINABLE INVESTMENT AND
@@ -67,8 +41,8 @@
       </div>
     </section>
     <!-- Home end -->
-    <!-- About Us start -->
-    <section>
+    <!-- About Us start-->
+    <!-- <section>
       <div class="about">
         <h1>About Us</h1>
         <div class="about-content">
@@ -106,10 +80,10 @@
           </p>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- About Us end -->
     <!-- Hero start -->
-    <section>
+    <!-- <section>
       <div class="hero">
         <div class="hero-content">
           <h3>“Build and GrowTogether”</h3>
@@ -118,10 +92,10 @@
           </h5>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Hero end -->
     <!-- Portofolio start -->
-    <section>
+    <!-- <section>
       <div class="portofolio">
         <h1>OUR PORTOFOLIO & PARTNERS</h1>
         <div class="portofolio-img">
@@ -135,10 +109,10 @@
       <div class="portofolio-content">
         <img src="images/gambar10.png" alt="" />
       </div>
-    </section>
+    </section> -->
     <!-- Portofolio end -->
     <!-- Expertice start -->
-    <section>
+    <!-- <section>
       <div class="expertise">
         <h1>Our Expertise</h1>
         <div class="expertise-content">
@@ -168,11 +142,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Expertice end -->
 
     <!-- Position Start -->
-    <section>
+    <!-- <section>
       <div class="position">
         <div class="position-content-satu">
           <div>
@@ -214,32 +188,22 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Position End -->
     <!-- Gallery start -->
-    <section>
+    <!-- <section>
       <div class="gallery">
         <div class="gallery-img">
           <img src="images/gambar14.avif" alt="" />
           <h1>GALLERY</h1>
         </div>
-        <div class="gallery-content">
-          <div id="prev-button" class="gallery-button" onclick="prevImage()">
-            &#8249;
-          </div>
-          <img src="images/gambar17.png" alt="gambar17" style="width: 300px" />
-          <img src="images/gambar16.png" alt="gambar16" style="width: 450px" />
-          <img src="images/gambar18.png" alt="gambar18" style="width: 300px" />
-          <div id="next-button" class="gallery-button" onclick="nextImage()">
-            Next &#8250;
-          </div>
-        </div>
+       
       </div>
-    </section>
+    </section> -->
 
     <!-- Gallery end -->
     <!-- Footer start -->
-    <footer>
+    <!-- <footer>
       <div class="contact">
         <h1>GET IN TOUCH</h1>
         <div class="contact-content">
@@ -265,10 +229,10 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- Footer end -->
 
-    <script>
+    <!-- <script>
       const images = document.querySelectorAll(".gallery-content img");
       let currentIndex = 0;
 
@@ -294,6 +258,7 @@
 
       // Tampilkan gambar pertama saat halaman dimuat
       showImage(currentIndex);
-    </script>
+    </script> -->
+    <script src="main.js"></script> -->
   </body>
 </html>
