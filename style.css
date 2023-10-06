@@ -74,6 +74,297 @@ header {
   flex: 1 1 17rem ;
 }
 
+.about {
+  background-color: #eee;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.about h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.about-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  flex-direction: column;
+}
+
+.about-content p {
+  
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+.about-content .about-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.about-content .about-img img {
+  max-width: 140px;
+}
+.about-content .about-img figure {
+  margin-right: 2rem;
+  margin-top: 10px;
+}
+.about-content .about-img figcaption {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.hero {
+  background-image: url("/images/gambar3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.hero-content {
+  padding-top: 20%;
+  padding-left: 50%;
+  padding-right: 2%;
+  color: white;
+}
+.hero-content h3 {
+  
+  font-size: 40px;
+  text-align: justify;
+}
+.hero-content h5 {
+  
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.portofolio {
+  background-color: #eee;
+  padding: 5rem;
+}
+.portofolio h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.portofolio-img {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.portofolio-img img {
+  margin-right: 5rem;
+}
+.portofolio-content img {
+  max-width: 100vh;
+}
+
+.expertise {
+  background-color: gainsboro;
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+.expertise h1 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+.expertise-content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  
+}
+.blog {
+  background-color: white;
+  padding: 3rem;
+}
+
+.position {
+  background-color: #eee;
+  padding: 3rem;
+}
+.position-content-satu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 30%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(248, 248, 248, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 2rem;
+  margin-top: 3rem;
+  list-style-type: circle;
+}
+.card ul li{
+  list-style-type: disc;
+}
+.position-content-satu p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.position-content-satu ul {
+  margin-left: 2rem;
+}
+.position-content-satu li {
+  margin-top: 10px;
+}
+
+.gallery {
+  position: relative;
+  width: 100%;
+}
+
+.gallery-img {
+  position: relative;
+  overflow: hidden; 
+}
+
+.gallery-img img {
+  width: 100%;
+  height: 60vh;
+  display: block; 
+}
+
+.overlay {
+  padding: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  color: black; 
+}
+.overlay h1 {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 2.5rem;
+}
+
+.gallery-content {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  background-color: #eee;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+}
+.gallery-content img {
+  margin: 30px;
+  margin-top: -20%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#prev-button {
+  left: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#next-button {
+  right: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.footer {
+  background-color: gray;
+  padding: 3rem;
+  
+}
+.footer h1 {
+  font-size: 3rem;
+  margin-left: 10rem;
+  
+}
+.footer-content {
+  display: flex;
+  justify-content:space-around;
+  margin-top: 3rem;
+}
+
+.footer-text h2 {
+  font-size: 2rem;
+}
+
+.footer-text p {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+
+.footer-img {
+  max-width: 100%;
+}
+.footer-img img {
+  width: 300px;
+}
+.sosial {
+  margin-top: 1rem;
+}
+.contact-item a{
+  color: black;
+  font-size: 1.1rem;
+}
+.bx  {
+  font-size: 1.5rem;
+}
+.sosial a {
+  font-size: 1.3rem;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -109,14 +400,19 @@ header {
   .hero-content {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 9rem;
   }
-  .hero-content h3,
-  h5 {
+  .hero-content h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10rem;
+  }
+  .hero-content h5 {
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 5rem;
+    
   }
-
+ 
   .portofolio {
     padding-right: 20px;
     padding-left: 20px;
@@ -137,14 +433,17 @@ header {
     max-width: 100%;
   }
   .expertise h1 {
+    text-align: center;
     font-size: 2rem;
   }
-  .expertise div {
-    width: 300px;
-  }
+  
   .expertise-content {
     flex-direction: column;
-    margin-left: 3rem;
+    
+  }
+  .blog {
+    text-align: center;
+    margin-top: 3rem;
   }
 
   .position {
@@ -162,61 +461,32 @@ header {
   .position-content-satu p {
     font-size: 1.8rem;
   }
-  .contact {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .contact h1 {
+
+  .footer h1 {
     font-size: 2rem;
+    margin-left: 0;
     text-align: center;
   }
-  .contact-content {
-    flex-direction: column;
-    margin-top: 20px;
-  }
-
-  .contact-alamat h2 {
+  .footer-text h2 {
+    margin-top: 0;
     font-size: 1.5rem;
   }
-  .contact-alamat p {
-    font-size: 20px;
-  }
-  .contact-logo img {
-    max-width: 200px;
-    display: block;
-    margin-left: 8rem;
-    margin-top: 30px;
-  }
-  .contact-info {
+  .footer-content {
     flex-direction: column;
   }
-  .contact-item {
-    margin-right: 8rem;
-  }
+  .sosial {
+    display: flex;
+    flex-wrap: wrap;
 
-  .gallery-content {
-    flex-direction: column;
-    align-items: flex-start;
-    width: auto;
   }
-
-  .gallery-content img {
-    margin-right: 0;
-    margin-bottom: 10px;
-    width: 100%;
+  .sosial span {
+    margin-top: 1rem;
   }
-
-  .gallery-button {
-    margin-top: 10px;
-    border-radius: 10px;
+  .footer-img {
+    margin-top: 3rem;
   }
-
-  .gallery-button#prev-button {
-    text-align: left;
-  }
-
-  .gallery-button#next-button {
-    text-align: right;
+  .footer-img img {
+    width: 300px;
   }
 
   .navbar-nav {
