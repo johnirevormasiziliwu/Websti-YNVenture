@@ -9,9 +9,20 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!-- start navbar  -->
+    <!-- Start Header  -->
     <header>
       <a href="#home" class="logo"
         ><img src="images/gambar2.png" alt="logoukrim"
@@ -19,16 +30,18 @@
       <div class="bx bx-menu" id="menu-icon"></div>
 
       <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#clients">Clients</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li><a class="text-decoration-none" href="#home">Home</a></li>
+        <li><a class="text-decoration-none" href="#about">About Us</a></li>
+        <li><a class="text-decoration-none" href="#portfolio">Portfolio</a></li>
+        <li>
+          <a class="text-decoration-none" href="#clients">Our Expertice</a>
+        </li>
+        <li><a class="text-decoration-none" href="#blog">Gallery</a></li>
+        <li><a class="text-decoration-none" href="#contact">Contact </a></li>
       </ul>
     </header>
+    <!-- End Headear -->
 
-    <!-- end navbar -->
     <!-- Home start -->
     <section>
       <div class="home">
@@ -45,6 +58,8 @@
         </div>
       </div>
     </section>
+    <!-- Home end -->
+    
     <!-- About Us start -->
     <section>
       <div class="about">
@@ -56,23 +71,23 @@
           </p>
           <div class="about-img">
             <figure>
-              <img src="images/gambar2.png" alt="Gambar 1" />
+              <img src="images/porperty.png" alt="Gambar 1" />
               <figcaption>Porperty</figcaption>
             </figure>
             <figure>
-              <img src="images/gambar2.png" alt="Gambar 1" />
+              <img src="images/Tourism.png" alt="Gambar 1" />
               <figcaption>Tourism</figcaption>
             </figure>
             <figure>
-              <img src="images/gambar2.png" alt="Gambar 1" />
+              <img src="images/Agrobisnis.png" alt="Gambar 1" />
               <figcaption>Agrobisnis</figcaption>
             </figure>
             <figure>
-              <img src="images/gambar2.png" alt="Gambar 1" />
+              <img src="images/Technology.png" alt="Gambar 1" />
               <figcaption>Technology</figcaption>
             </figure>
             <figure>
-              <img src="images/gambar2.png" alt="Gambar 1" />
+              <img src="images/Media.png" alt="Gambar 1" />
               <figcaption>Media</figcaption>
             </figure>
           </div>
@@ -134,15 +149,15 @@
         </div>
         <div class="expertise-content">
           <div class="blog">
-            <span>Design</span>
+            <span>Shareholder investment management</span>
           </div>
 
           <div class="blog">
-            <span>Business Plan</span>
+            <span>Business set up & oversight</span>
           </div>
 
           <div class="blog">
-            <span>Crowd funding/ Investor networking</span>
+            <span>Project Management</span>
           </div>
         </div>
       </div>
@@ -194,6 +209,8 @@
       </div>
     </section>
     <!-- Position End -->
+
+    <!-- Gallery Start -->
     <section>
       <div class="gallery">
         <div class="gallery-img">
@@ -202,19 +219,96 @@
             <h1>Gallery</h1>
           </div>
         </div>
-        <!-- <div class="gallery-content">
-          <div id="prev-button" class="gallery-button" onclick="prevImage()">
-            &#8249; Back
+        <div class="slide-gallery-img">
+          <div class="slide">
+            <div
+              id="carouselExample"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 1"
+                    class="image-to-show"
+                  />
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 1"
+                    class="image-to-hide"
+                  />
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 1"
+                    class="image-to-hide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 2"
+                    class="image-to-show"
+                  />
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 2"
+                    class="image-to-hide"
+                  />
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 2"
+                    class="image-to-hide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 3"
+                    class="image-to-show"
+                  />
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 3"
+                    class="image-to-hide"
+                  />
+                  <img
+                    src="images/gambar18.png"
+                    alt="Slide 3"
+                    class="image-to-hide"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
-          <img src="/images/gambar17.png" alt="gambar17" style="width: 300px" />
-          <img src="/images/gambar16.png" alt="gambar16" style="width: 450px" />
-          <img src="/images/gambar18.png" alt="gambar18" style="width: 300px" />
-          <div id="next-button" class="gallery-button" onclick="nextImage()">
-            Next &#8250;
-          </div>
-        </div> -->
+        </div>
       </div>
     </section>
+    <!-- Gallery Start -->
 
     <!-- start contact -->
     <section>
@@ -227,8 +321,9 @@
             <p>Jl. Bali C19A, Purwosari, Sleman, D.I.Yogyakart 55284</p>
             <div class="sosial">
               <a href="http://www.yventura.com/">
-                <i class="bx bxl-google"></i>www.yventura.com</a>
-              <span ><i class="bx bxl-gmail"></i>office@yventura.com</span>
+                <i class="bx bxl-google"></i>www.yventura.com</a
+              >
+              <span><i class="bx bxl-gmail"></i>office@yventura.com</span>
             </div>
           </div>
           <div class="footer-img">
